@@ -1,48 +1,17 @@
-import * as React from "react";
+import React, { Component } from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import Fade from "react-reveal/Fade";
+import Header from './Components/Header'
+import Information from './Components/Information'
 
-function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Routes>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+       <Header/>
+      <Information/>
+      </>
+    )
+  }
 }
-
-function Home() {
-  return (
-    <>
-      <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
-      </main>
-      <nav>
-        <Link to="/about">About</Link>
-      </nav>
-    </>
-  );
-}
-
-function About() {
-  return (
-    <>
-      <main>
-        <h2>Who are we?</h2>
-        <p>
-          That feels like an existential question, don't you
-          think?
-        </p>
-      </main>
-      <nav>
-        
-        <Link to="/"><button>click on me</button></Link>
-      </nav>
-    </>
-  );
-}
-
-export default App;

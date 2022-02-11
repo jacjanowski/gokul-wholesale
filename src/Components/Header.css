@@ -1,0 +1,15 @@
+.navbar {
+  overflow: hidden;
+  background-color: rgba(117, 114, 114, 0.329);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+
