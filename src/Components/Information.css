@@ -1,3 +1,26 @@
+
+
 .section {
+    height: 100vh;
     padding-top: 32px;
 }
+.container {
+    margin: 200px;
+}
+#home {
+    background-color: rgb(122, 122, 122);
+}
+
+#about {
+    background-color: dimgray;
+}
+
+#contact {
+    background-color: rgb(59, 59, 59);
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        margin: 0;
+    }
+  }

@@ -6,6 +6,7 @@ export default class Header extends Component {
   render() {
       
     return (
+      
       <ul className="navbar" id="navbar">
         <li>
           <Link activeClass="active" to="home" spy={true} smooth={true}>
@@ -20,11 +21,6 @@ export default class Header extends Component {
         <li>
           <Link to="contact" spy={true} smooth={true}>
             Contact
-          </Link>
-        </li>
-        <li>
-          <Link to="service" spy={true} smooth={true}>
-            Service
           </Link>
         </li>
       </ul>
