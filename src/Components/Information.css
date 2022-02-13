@@ -1,14 +1,29 @@
 
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
 
 .section {
     height: 100vh;
     padding-top: 32px;
 }
 .container {
-    margin: 200px;
+    background-color: rgba(247, 240, 240, 0.356);
+    margin: 150px;
+}
+
+.container h1 {
+    font-size: 48px;
+    text-align: center;
 }
 #home {
-    background-color: rgb(122, 122, 122);
+    background-image: url("../../public/gokul-images/building.jpeg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #about {
