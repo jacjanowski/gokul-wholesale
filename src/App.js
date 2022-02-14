@@ -7,13 +7,14 @@ import Information from './Components/Information'
 import Slider from './Components/Slider';
 import Email from './Components/Email';
 
+
 export default class App extends Component {
   render() {
     return (
       <>
         <Header />
         <Information />
-        <Slider />
+        {/* <Slider /> */}
       </>
     )
   }

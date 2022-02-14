@@ -10,6 +10,7 @@ body {
 .container {
     background-color: rgba(247, 240, 240, 0.356);
     margin: 150px;
+    height: 500px;
 }
 
 .container h1 {
@@ -33,6 +34,7 @@ body {
 #contact {
     background-color: rgb(59, 59, 59);
 }
+
 
 @media only screen and (max-width: 767px) {
     .container {

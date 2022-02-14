@@ -1,0 +1,33 @@
+label, input {
+    display: block;
+}
+
+input  {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+form * {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .column {
+    margin: 0px 20px;
+    width: 50%;
+}
+
+.row .column:nth-of-type(2) {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
