@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Email.css';
+import { FaTelegram } from "react-icons/fa";
 
 const Email = () => {
     const form = useRef();
@@ -19,7 +20,7 @@ const Email = () => {
     return (
         <div className="row">
             <div className="column">
-                <p>Here i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxt</p>
+                <p> <FaTelegram /> Here i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxt</p>
             </div>
 
             <div className="column">
