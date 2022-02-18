@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Email.css';
-import { FaTelegram } from "react-icons/fa";
+import { FaMapMarkerAlt,FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Email = () => {
     const form = useRef();
@@ -20,7 +20,13 @@ const Email = () => {
     return (
         <div className="row">
             <div className="column">
-                <p> <FaTelegram /> Here i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxtHere i am with some texxt</p>
+                <h2>Address</h2>
+                <p> <FaMapMarkerAlt /> 1141 W. Bryn Mawr Ave. Itasca, IL 60191</p>
+                <h2>Email</h2>
+                <p><FaPhone /> <a href='tel:630-540-9910' >(630) 540-9910</a></p> 
+                <h2>Phone</h2>
+                <p><FaEnvelope /> <a href="mailto: jacobjanowski.uic@gmail.com">harsh@gokulwholesaleinc.com</a> </p>
+                
             </div>
 
             <div className="column">

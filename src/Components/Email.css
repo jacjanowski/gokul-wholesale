@@ -1,33 +1,44 @@
-label, input {
-    display: block;
+label,
+input {
+  display: block;
 }
 
-input  {
-    margin-bottom: 20px;
+input {
+  margin-bottom: 20px;
 }
 
 form {
-    width: 400px;
-    margin: auto;
+  width: 400px;
+  margin: auto;
 }
 
 form * {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row .column {
-    margin: 0px 20px;
-    width: 50%;
+  margin: 0px 20px;
+  min-width: 500px;
 }
 
 .row .column:nth-of-type(2) {
-    background-color: aquamarine;
-    border-radius: 10px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    display: block;
+  }
 }
