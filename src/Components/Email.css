@@ -5,16 +5,17 @@ input {
 
 input {
   margin-bottom: 20px;
+  border: 5px solid gray;
 }
 
 form {
-  width: 400px;
+  /* width: 400px; */
   margin: auto;
 }
 
 form * {
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .row {
@@ -28,17 +29,64 @@ form * {
   min-width: 500px;
 }
 
-.row .column:nth-of-type(2) {
-  background-color: aquamarine;
-  border-radius: 10px;
+h2 {
+  color: cadetblue;
+  letter-spacing: 0.5ch;
+}
+p {
+  
+  font-size: 26px;
 }
 
-p a {
-    text-decoration: none;
-    color: black;
+.column:nth-of-type(1) p {
+  margin-bottom: 1.5em;
 }
+
+p a { 
+  text-decoration: none;
+  color: black;
+}
+svg {
+  color: azure;
+}
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  width: 25%;
+  height: 50px;
+  width: 100px;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  opacity: 0.5;
+}
+
+
+
 @media only screen and (max-width: 767px) {
+
   .row {
+    margin: 0px 20px;
     display: block;
   }
+  .row .column:nth-of-type(2){
+    min-width: 0;
+  }
+  ul li {
+    font-size: 20px;
+  }
+
+  form * {
+    margin: auto;
+  }
+  input[type="submit"] {
+    height: 30px;
+    padding-bottom: 20px;
+  }
 }
+

@@ -37,7 +37,7 @@ export default class Information extends Component {
         </div>
         <div className="section" id="contact">
           <div className="container">
-            <h1>This is Home section</h1>
+            <h1>Contact Information</h1>
           <Email />
           </div>
         </div>

@@ -1,14 +1,19 @@
 
-body {
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    /* position: relative; */
     font-family: 'Readex Pro', sans-serif;
-}
+
+  }
 
 .section {
     height: 100vh;
     padding-top: 32px;
 }
 .container {
-    background-color: rgba(247, 240, 240, 0.356);
     margin: 150px;
     height: 500px;
 }
