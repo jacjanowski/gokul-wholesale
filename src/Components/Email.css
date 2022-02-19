@@ -1,10 +1,13 @@
 label,
 input {
   display: block;
+  height: 30px;
+  font-size: 18px;
 }
 
-input {
+input, #textarea {
   margin-bottom: 20px;
+  border-radius: 5px;
   border: 5px solid gray;
 }
 
@@ -51,6 +54,7 @@ svg {
 }
 textarea {
   height: 200px;
+  font-size: 18px;
 }
 
 input[type="submit"] {
@@ -66,8 +70,10 @@ input[type="submit"]:hover {
   opacity: 0.5;
 }
 
-
-
+.form-input:focus, #textarea:focus {
+  border: 5px solid cadetblue;
+  transition: .7s ease-in-out;
+}
 @media only screen and (max-width: 767px) {
 
   .row {
@@ -87,6 +93,9 @@ input[type="submit"]:hover {
   input[type="submit"] {
     height: 30px;
     padding-bottom: 20px;
+  }
+  #textarea {
+    height: 100px;
   }
 }
 

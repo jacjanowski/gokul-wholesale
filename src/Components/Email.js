@@ -56,9 +56,9 @@ const Email = () => {
             <label>Name</label>
             <input className="form-input" type="text" name="user_name" />
             <label>Email</label>
-            <input type="email" className="form-input" name="user_email" />
+            <input type="email" className="form-input" name="user_email" required={true}/>
             <label>Message</label>
-            <textarea name="message" />
+            <textarea id="textarea" name="message" />
             <input type="submit" className="form-input" value="Send" />
           </form>
         </Fade>
