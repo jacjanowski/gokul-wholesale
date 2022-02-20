@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Information.css";
 import Email from './Email';
+import Slider from './Slider';
 
 import Fade from 'react-reveal/Fade';
 
@@ -14,6 +15,8 @@ export default class Information extends Component {
       <>
         <div className="section" id="home">
           
+        
+
           <Fade top>
 
             <div className="container">
@@ -25,16 +28,14 @@ export default class Information extends Component {
             </div>
           </Fade>
         </div>
+
         <div className="section" id="about">
           <div className="container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-            repellendus. Totam nihil similique a repellat minus dolor amet
-            quasi. Corporis nulla quaerat iste, sed quasi ab dolorem maxime
-            minima animi.
-        
-
+            <h1>Carousel</h1>
+          <Slider />
           </div>
         </div>
+
         <div className="section" id="contact">
           <div className="container">
             <h1>Contact Information</h1>

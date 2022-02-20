@@ -36,11 +36,11 @@ const Email = () => {
             {" "}
             <FaMapMarkerAlt /> 1141 W. Bryn Mawr Ave. Itasca, IL 60191
           </p>
-          <h2>Email</h2>
+          <h2>Phone</h2>
           <p>
             <FaPhone /> <a href="tel:630-540-9910">(630) 540-9910</a>
           </p>
-          <h2>Phone</h2>
+          <h2>Email</h2>
           <p>
             <FaEnvelope />{" "}
             <a href="mailto: jacobjanowski.uic@gmail.com">

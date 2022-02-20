@@ -32,12 +32,27 @@ html, body {
     background-size: cover;
 }
 
+
 #about {
-    background-color: dimgray;
+    background-image: url("../../public/gokul-images/building.jpeg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #contact {
-    background-color: rgb(59, 59, 59);
+    background-image: url("../../public/gokul-images/contact.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
