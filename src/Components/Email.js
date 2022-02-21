@@ -54,12 +54,12 @@ const Email = () => {
         <Fade right cascade>
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input className="form-input" type="text" name="user_name" />
+            <input className="form-input" type="text" name="user_name" placeholder="Name"/>
             <label>Email</label>
-            <input type="email" className="form-input" name="user_email" required={true}/>
+            <input type="email" className="form-input" name="user_email" required={true} placeholder="Email Address"/>
             <label>Message</label>
-            <textarea id="textarea" name="message" />
-            <input type="submit" className="form-input" value="Send" />
+            <textarea id="textarea" name="message" placeholder="How can we help you?"/>
+            <input id="sendBtn" type="submit" className="form-input" value="Send" />
           </form>
         </Fade>
       </div>

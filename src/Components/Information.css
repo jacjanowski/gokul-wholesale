@@ -45,19 +45,18 @@ html, body {
 }
 
 #contact {
-    background-image: url("../../public/gokul-images/contact.jpg");
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(122,122,122);
+    background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(77,77,77,1) 100%);
 
 }
 
 
 @media only screen and (max-width: 767px) {
     .container {
+        margin: 0;
+    }
+    .row .column {
+        min-width: 0;
         margin: 0;
     }
   }
