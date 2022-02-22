@@ -20,25 +20,25 @@ export default class Information extends Component {
           <Fade top>
 
             <div className="container">
-              <h1>Gokul Wholesale</h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-              repellendus. Totam nihil similique a repellat minus dolor amet
-              quasi. Corporis nulla quaerat iste, sed quasi ab dolorem maxime
-              minima animi.
+                <div className="container">
+                <h1>Gokul Wholesale</h1>
+
+                  <p>Somes content goes here....</p>
+                </div>
             </div>
           </Fade>
         </div>
 
         <div className="section" id="about">
           <div className="container">
-            <h1>Carousel</h1>
+            <h1>Here</h1>
           <Slider />
           </div>
         </div>
 
         <div className="section" id="contact">
           <div className="container">
-            <h1>Contact Information</h1>
+            <h1>Contact Us</h1>
           <Email />
           </div>
         </div>

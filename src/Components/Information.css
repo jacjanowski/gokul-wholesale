@@ -9,12 +9,13 @@ html, body {
 
   }
 
+
 .section {
     height: 100vh;
     padding-top: 32px;
 }
 .container {
-    margin: 150px;
+    margin-top: 50px;
     height: 500px;
 }
 
@@ -52,6 +53,9 @@ html, body {
 
 
 @media only screen and (max-width: 767px) {
+    .section {
+        padding-top: 15%;
+    }
     .container {
         margin: 0;
     }

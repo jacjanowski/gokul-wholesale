@@ -28,9 +28,12 @@ const Email = () => {
   };
 
   return (
+    
     <div className="row">
       <Fade bottom cascade>
+        
         <div className="column">
+
           <h2>Address</h2>
           <p>
             {" "}
@@ -53,11 +56,8 @@ const Email = () => {
       <div className="column">
         <Fade right cascade>
           <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
             <input className="form-input" type="text" name="user_name" placeholder="Name"/>
-            <label>Email</label>
             <input type="email" className="form-input" name="user_email" required={true} placeholder="Email Address"/>
-            <label>Message</label>
             <textarea id="textarea" name="message" placeholder="How can we help you?"/>
             <input id="sendBtn" type="submit" className="form-input" value="Send" />
           </form>
