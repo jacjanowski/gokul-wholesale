@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Information.css";
 import Email from './Email';
 import Slider from './Slider';
+import Header from './Header';
 
 import Fade from 'react-reveal/Fade';
 
@@ -14,36 +15,29 @@ export default class Information extends Component {
     return (
       <>
         <div className="section" id="home">
-          
-        
 
-          <Fade top>
+          <div className="container">
+            <Header />
 
-            <div className="container">
-                <div className="container">
-                <h1>Gokul Wholesale</h1>
+          </div>
 
-                  <p>Somes content goes here....</p>
-                </div>
-            </div>
-          </Fade>
         </div>
 
         <div className="section" id="about">
           <div className="container">
             <h1>Here</h1>
-          <Slider />
+            <Slider />
           </div>
         </div>
 
         <div className="section" id="contact">
           <div className="container">
             <h1>Contact Us</h1>
-          <Email />
+            <Email />
           </div>
         </div>
 
-        
+
       </>
     );
   }
