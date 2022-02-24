@@ -12,11 +12,12 @@ html, body {
 
 .section {
     height: 100vh;
-    padding-top: 32px;
+    /* padding-top: 32px; */
 }
 .container {
-    margin-top: 50px;
-    height: 500px;
+    /* margin-top: 50px; */
+    /* height: 500px; */
+    border: 2px solid black;
 }
 
 .container h1 {
@@ -36,7 +37,7 @@ html, body {
 
 
 #about {
-    background-image: url("../../public/gokul-images/building.jpeg");
+    background-image: url("../../public/gokul-images/contact.jpg");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
