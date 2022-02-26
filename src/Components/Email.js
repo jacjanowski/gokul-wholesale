@@ -6,21 +6,17 @@ import Fade from "react-reveal/Fade";
 
 export default function Email() {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState(false);
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(email, password);
-  //   // clearing the values
-  //   setEmail("");
-  //   setPassword("");
-  // }
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
     setEmail("");
-    setPassword("");
+    setName("");
+    setMessage("");
     emailjs
       .sendForm(
         "service_l33s7b5",
@@ -30,18 +26,36 @@ export default function Email() {
       )
       .then(
         (result) => {
-         
+          setStatus(true);
           console.log(result.text);
         },
         (error) => {
+          setStatus(false);
           console.log(error.text);
         }
       );
   };
 
-  // const test = (e) => {
-  //   alert("Email has been sent!");
-  // };
+  const test = (e) => {
+    e.preventDefault();
+    setStatus(true);
+    alert("Email has been sent!");
+    setEmail("");
+    setName("");
+    setMessage("");
+  };
+
+  let alertMessage = (
+    <div id="alertMessage">
+      <p>You have successfully sent your email!</p>
+    </div>
+  );
+
+  // let errorMessage = (
+  //   <div id="errorMessage">
+  //   <p>There was a problem sending your email.</p>
+  // </div>
+  // )
 
   return (
     <div className="row">
@@ -68,15 +82,16 @@ export default function Email() {
 
       {/* id="contact-form" ref={form} onSubmit={sendEmail} */}
       <div className="column">
+        {status && alertMessage}
         <Fade right cascade>
-          <form  id="contact-form" ref={form} onSubmit={sendEmail}>
+          <form id="contact-form" ref={form} onSubmit={test}>
             <input
               className="form-input"
               type="text"
               name="user_name"
               placeholder="Name"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               required={true}
             />
             <input
@@ -85,21 +100,22 @@ export default function Email() {
               name="user_email"
               required={true}
               placeholder="Email Address"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
               id="textarea"
               name="message"
               placeholder="How can we help you?"
               required={true}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
             <input
               id="sendBtn"
               type="submit"
               className="form-input"
               value="Send"
-              
             />
           </form>
         </Fade>
