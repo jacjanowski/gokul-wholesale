@@ -6,9 +6,9 @@ import Header from './Header';
 
 import Fade from 'react-reveal/Fade';
 
+let logo = "gokul-images/logo.png";
 
 export default class Information extends Component {
-
 
   render() {
 
@@ -17,6 +17,10 @@ export default class Information extends Component {
         <div className="section" id="home">
 
           <div className="container">
+          <h1>Gokul Wholesale</h1>
+
+
+            <img id="logo" src={logo} />
             <Header />
 
           </div>
