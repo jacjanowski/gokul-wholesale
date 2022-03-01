@@ -81,7 +81,7 @@ export default function Email() {
       </Fade>
 
       {/* id="contact-form" ref={form} onSubmit={sendEmail} */}
-      <div className="column">
+      <div className="column" id="form-container">
         {status && alertMessage}
         <Fade right cascade>
           <form id="contact-form" ref={form} onSubmit={test}>

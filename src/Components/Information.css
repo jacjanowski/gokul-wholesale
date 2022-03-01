@@ -22,17 +22,10 @@ html, body {
 .container {
     border: 1px solid black;
 }
-#home {
-    /* background-image: url("../../public/gokul-images/building.jpeg"); */
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 5%;
+#about .container, #contact .container {
+    height: 100%;
 }
+
 
 
 #about {
@@ -47,18 +40,40 @@ html, body {
 }
 
 #contact {
-    background: rgb(122,122,122);
-    background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(77,77,77,1) 100%);
+    /* background-image: url("../../public/gokul-images/building.jpeg"); */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 }
-#home .container {
-    text-align: center;
-    position: relative;
-    margin: 0 25%;
-    background-color: rgba(245, 245, 245, 0.7);
-    border: 2px solid black;
-    border-radius: 10px;
+
+#contact::before {    
+    content: "";
+    /* background-image: url('../../public/gokul-images/city.jpeg'); */
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.5)) , url('../../public/gokul-images/city.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
+#home {
+    /* background-image: url("../../public/gokul-images/building.jpeg"); */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+}
+
 #home::before {    
     content: "";
     background-image: url('../../public/gokul-images/building.jpeg');
@@ -69,6 +84,14 @@ html, body {
     bottom: 0px;
     left: 0px;
     opacity: 0.6;
+}
+#home .container {
+    text-align: center;
+    position: relative;
+    margin: 0 25%;
+    background-color: rgba(245, 245, 245, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 #logo {
     height: 300px;
