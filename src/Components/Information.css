@@ -20,7 +20,7 @@ html, body {
     text-align: center;
 }
 .container {
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 #about .container, #contact .container {
     height: 100%;
@@ -54,7 +54,7 @@ html, body {
 #contact::before {    
     content: "";
     /* background-image: url('../../public/gokul-images/city.jpeg'); */
-    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.5)) , url('../../public/gokul-images/city.jpeg');
+    background-image: linear-gradient(rgb(14, 14, 14),rgba(51, 51, 51, 0.5)) , url('../../public/gokul-images/building.jpeg');
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -71,7 +71,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 
 #home::before {    
@@ -89,9 +89,7 @@ html, body {
     text-align: center;
     position: relative;
     margin: 0 25%;
-    background-color: rgba(245, 245, 245, 0.7);
-    border: 2px solid black;
-    border-radius: 10px;
+
 }
 #logo {
     height: 300px;
@@ -102,17 +100,20 @@ html, body {
     .section {
         height: auto;
     }
-    
-    #home {
-        padding-top: 25%;
-    }
 
+
+    #home {
+        display: flex;
+    }
+    #home .navbar {
+        display: block;
+    }
     #home, #about {
         /* padding: 0; */
         height: 100vh;
     }
     #home .container {
-        margin: 0;
+        margin: auto;
     }
     .row .column {
         min-width: 0;

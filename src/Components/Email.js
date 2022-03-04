@@ -39,7 +39,6 @@ export default function Email() {
   const test = (e) => {
     e.preventDefault();
     setStatus(true);
-    alert("Email has been sent!");
     setEmail("");
     setName("");
     setMessage("");
@@ -59,7 +58,7 @@ export default function Email() {
 
   return (
     <div className="row">
-      <Fade bottom cascade>
+      <Fade left cascade>
         <div className="column">
           <h2>Address</h2>
           <p>

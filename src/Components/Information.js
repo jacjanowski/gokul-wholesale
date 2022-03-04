@@ -15,15 +15,17 @@ export default class Information extends Component {
     return (
       <>
         <div className="section" id="home">
+          <Fade top>
 
-          <div className="container">
-          <h1>Gokul Wholesale</h1>
+            <div className="container">
+              <h1>Gokul Wholesale</h1>
 
 
-            <img id="logo" src={logo} />
-            <Header />
+              <img id="logo" src={logo} />
+              <Header />
 
-          </div>
+            </div>
+          </Fade>
 
         </div>
 
