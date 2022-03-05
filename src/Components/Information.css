@@ -28,8 +28,8 @@ html, body {
 
 
 #about {
-    background-image: url("../../public/gokul-images/DSC_7892.JPG");
-
+    /* background-image: url("../../public/gokul-images/DSC_7892.JPG"); */
+    height: auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;

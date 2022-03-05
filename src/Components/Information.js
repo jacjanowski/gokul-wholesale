@@ -1,39 +1,32 @@
 import React, { Component } from "react";
 import "./Information.css";
-import Email from './Email';
-import Slider from './Slider';
-import Header from './Header';
-
-import Fade from 'react-reveal/Fade';
-
+import Email from "./Email";
+import Slider from "./Slider";
+import Header from "./Header";
+import { photos } from "../photo";
+import Fade from "react-reveal/Fade";
+import Gallery from "react-photo-gallery";
+import GalleryPage from "./GalleryPage";
 let logo = "gokul-images/logo.png";
 
 export default class Information extends Component {
-
   render() {
-
     return (
       <>
         <div className="section" id="home">
           <Fade top>
-
             <div className="container">
               <h1>Gokul Wholesale</h1>
 
-
               <img id="logo" src={logo} />
-                <Header />
-
-
+              <Header />
             </div>
           </Fade>
-
         </div>
 
         <div className="section" id="about">
           <div className="container">
-            <h1>Products</h1>
-            <Slider />
+            <GalleryPage />
           </div>
         </div>
 
@@ -43,8 +36,8 @@ export default class Information extends Component {
             <Email />
           </div>
         </div>
-
-
+       
+        
       </>
     );
   }
