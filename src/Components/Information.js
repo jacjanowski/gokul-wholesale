@@ -22,7 +22,8 @@ export default class Information extends Component {
 
 
               <img id="logo" src={logo} />
-              <Header />
+                <Header />
+
 
             </div>
           </Fade>
@@ -31,14 +32,14 @@ export default class Information extends Component {
 
         <div className="section" id="about">
           <div className="container">
-            <h1>Here</h1>
+            <h1>Products</h1>
             <Slider />
           </div>
         </div>
 
         <div className="section" id="contact">
           <div className="container">
-            <h1 style={{color: "white"}}>Contact Us</h1>
+            <h1 style={{ color: "white" }}>Contact Us</h1>
             <Email />
           </div>
         </div>
