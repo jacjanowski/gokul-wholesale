@@ -1,4 +1,16 @@
+#carousel {
+    margin: auto;
+    padding: 15px 0px;
+    width: 85%;
+    background-color: black;
+}
+
 #carousel img {
-    height: 300px;
+    height: 400px;
     width: 100%;
+    
+}
+
+#carousel h3 {
+    margin: 0px 5px;
 }

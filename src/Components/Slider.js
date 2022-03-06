@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import './Slider.css';
-
-
+import "./Slider.css";
 
 let imgs = [
   "gokul-images/DSC_7779.jpg",
@@ -20,7 +18,7 @@ export default class SimpleSlider extends Component {
       dots: true,
       infinite: true,
       speed: 2000,
-      slidesToShow: 3,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
@@ -29,35 +27,43 @@ export default class SimpleSlider extends Component {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
-      <div id="carousel" style={{ width: "85%", margin: "auto" }}>
-
+      <div id="carousel">
         <Slider {...settings}>
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
           </div>
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[1]} alt="NFT" />
-          </div>
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
+          </div>{" "}
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[2]} alt="NFT" />
-          </div>
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
+          </div>{" "}
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[3]} alt="NFT" />
-          </div>
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
+          </div>{" "}
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[4]} alt="NFT" />
-          </div>
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
+          </div>{" "}
           <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[5]} alt=" NFT" />
-          </div>
-          <div>
-            <img style={{ borderRadius: "15px" }} src={imgs[6]} alt=" NFT" />
+            <h3>
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+            </h3>
           </div>
         </Slider>
       </div>

@@ -108,6 +108,8 @@ html, body {
     width: 300px;
 }
 
+
+
 @media only screen and (max-width: 767px) {
 
 
@@ -119,10 +121,7 @@ html, body {
     #home .navbar {
         display: block;
     }
-    #home, #about {
-        /* padding: 0; */
-        height: 100vh;
-    }
+
     #home .container {
         margin: auto;
     }

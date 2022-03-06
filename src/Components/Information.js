@@ -7,6 +7,7 @@ import { photos } from "../photo";
 import Fade from "react-reveal/Fade";
 import Gallery from "react-photo-gallery";
 import GalleryPage from "./GalleryPage";
+
 let logo = "gokul-images/logo.png";
 
 export default class Information extends Component {
@@ -24,20 +25,21 @@ export default class Information extends Component {
           </Fade>
         </div>
 
-        <div className="section" id="about">
+        <div className="section" id="about" style={{backgroundColor: 'black'}}>
           <div className="container">
+            <Slider />
             <GalleryPage />
           </div>
         </div>
 
         <div className="section" id="contact">
           <div className="container">
-            <h1 style={{ color: "white" }}>Contact Us</h1>
+            <Fade top>
+              <h1 style={{ color: "white" }}>Contact Us</h1>
+            </Fade>
             <Email />
           </div>
         </div>
-       
-        
       </>
     );
   }
