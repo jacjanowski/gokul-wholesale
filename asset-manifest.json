@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gokul-wholesale/static/css/main.6252bd42.css",
+    "main.js": "/gokul-wholesale/static/js/main.2f65ee18.js",
+    "static/media/building.jpeg": "/gokul-wholesale/static/media/building.08320a3f26698b10d52e.jpeg",
+    "index.html": "/gokul-wholesale/index.html",
+    "main.6252bd42.css.map": "/gokul-wholesale/static/css/main.6252bd42.css.map",
+    "main.2f65ee18.js.map": "/gokul-wholesale/static/js/main.2f65ee18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6252bd42.css",
+    "static/js/main.2f65ee18.js"
+  ]
+}
