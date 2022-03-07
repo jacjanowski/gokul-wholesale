@@ -45,7 +45,7 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div id="carousel">
-        <h1 style={{color: 'white'}}>Our Merchandise</h1>
+        <h1 style={{color: 'white'}}>Our Products</h1>
         <Slider {...settings}>
           <div>
             <h3>
