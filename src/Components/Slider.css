@@ -1,16 +1,29 @@
 #carousel {
     margin: auto;
-    padding: 15px 0px;
-    width: 85%;
+    padding: 10px 0px;
+    width: 90%;
     background-color: black;
 }
 
 #carousel img {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    
 }
 
 #carousel h3 {
     margin: 0px 5px;
+}
+
+#carousel p {
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    #carousel {
+      width: 100%;
+  }
+  
 }

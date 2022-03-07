@@ -25,7 +25,7 @@ export default class Information extends Component {
           </Fade>
         </div>
 
-        <div className="section" id="about" style={{backgroundColor: 'black'}}>
+        <div className="section" id="about" >
           <div className="container">
             <Slider />
             <GalleryPage />
