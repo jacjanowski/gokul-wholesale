@@ -9,11 +9,7 @@ html, body {
 
 
 
-.section {
-    
-    height: 100vh;
-    /* padding-top: 32px; */
-}
+
 
 
 .container h1 {
@@ -72,7 +68,7 @@ html, body {
 
 #home {
     /* background-image: url("../../public/gokul-images/building.jpeg"); */
-
+    height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
