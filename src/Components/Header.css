@@ -14,7 +14,7 @@
   cursor: pointer;
   color: rgb(196, 217, 255);
   /* border-bottom: 1px solid #000; */
-  margin: 0 50px;
+  /* margin: 0 50px; */
   
 }
 
@@ -34,6 +34,8 @@ ul li {
       font-size: 40px;
       margin: 10% 0px;
   }
+  
+  
   
 }
 

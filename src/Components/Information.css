@@ -44,7 +44,7 @@ html, body {
     background-size: cover;
     position: relative;
     display: flex;
-
+    height: 100vh;
 }
 
 #contact .container {
@@ -108,7 +108,9 @@ html, body {
 
 @media only screen and (max-width: 767px) {
 
-
+    #contact {
+        height: auto;
+    }
     
 
     #home {
