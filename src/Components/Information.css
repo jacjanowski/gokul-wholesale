@@ -116,6 +116,9 @@ html, body {
     #home {
         display: flex;
     }
+    #home::before{
+        background-attachment: scroll;
+    }
     #home .navbar {
         display: block;
     }
