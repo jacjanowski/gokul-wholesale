@@ -35,6 +35,7 @@ input,
   -o-transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
   transition: 0.3s;
+  background-color: dodgerblue;
 }
 input:hover,
 #textarea:hover,
@@ -163,11 +164,10 @@ input[type="submit"]:hover {
     margin-bottom: 30px;
   }
   input[type="submit"] {
-    background-color: rgb(143, 204, 255);
+    background-color: dodgerblue;
     color: #000;
-    width: 100%;
-    height: 30px;
-    padding-bottom: 20px;
+    width: 50%;
+    
   }
   #textarea {
     height: 100px;
