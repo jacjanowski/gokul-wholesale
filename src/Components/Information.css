@@ -117,6 +117,7 @@ html, body {
         display: flex;
     }
     #home::before{
+        background-size: contain;
         background-attachment: scroll;
     }
     #home .navbar {
