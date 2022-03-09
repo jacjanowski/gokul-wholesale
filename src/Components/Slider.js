@@ -2,25 +2,27 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
 
+
+
 let imgs = [
-  "gokul-images/cup1.jpg",
-  "gokul-images/cup2.jpg",
-  "gokul-images/cup3.jpg",
-  "gokul-images/pacific1.jpg",
-  "gokul-images/pacific2.jpg",
-  "gokul-images/pacific3.jpg",
-  "gokul-images/sanitizer1.jpg",
-  "gokul-images/sanitizer2.jpg",
-  "gokul-images/sanitizer3.jpg",
-  "gokul-images/blunt.jpg",
-  "gokul-images/satya2.jpg",
-  "gokul-images/satya3.jpg",
-  "gokul-images/beer1.jpg",
-  "gokul-images/beer2.jpg",
-  "gokul-images/beer3.jpg",
-  "gokul-images/soap1.jpg",
-  "gokul-images/soap2.jpg",
-  "gokul-images/soap3.jpg"
+  "gokul-images/cup1.JPG",
+  "gokul-images/cup2.JPG",
+  "gokul-images/cup3.JPG",
+  "gokul-images/pacific1.JPG",
+  "gokul-images/pacific2.JPG",
+  "gokul-images/pacific3.JPG",
+  "gokul-images/sanitizer1.JPG",
+  "gokul-images/sanitizer2.JPG",
+  "gokul-images/sanitizer3.JPG",
+  "gokul-images/blunt.JPG",
+  "gokul-images/satya2.JPG",
+  "gokul-images/satya3.JPG",
+  "gokul-images/beer1.JPG",
+  "gokul-images/beer2.JPG",
+  "gokul-images/beer3.JPG",
+  "gokul-images/soap1.JPG",
+  "gokul-images/soap2.JPG",
+  "gokul-images/soap3.JPG"
 ];
 
 export default class SimpleSlider extends Component {
@@ -40,6 +42,13 @@ export default class SimpleSlider extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
           },
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2, 
+            slidesToScroll: 2,
+          }
         },
       ],
     };
