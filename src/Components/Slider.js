@@ -54,117 +54,117 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div id="carousel">
-        <h1 style={{color: 'white'}}>Our Products</h1>
+        <h1>Some of Our Merchandise</h1>
         <Slider {...settings}>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[0]} alt="NFT"  decoding="async"/>
               <p>16oz. Solo Cup</p>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[1]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[1]} alt="NFT" decoding="async" />
               <p>16 count, 16oz.</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[2]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[2]} alt="NFT"  decoding="async"/>
               <p>20 count, 2oz.</p>
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[3]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[3]} alt="NFT" decoding="async"/>
               <p>300 count, 12oz.</p>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[4]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[4]} alt="NFT" decoding="async"/>
               <p>20 count, 12oz.</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[5]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[5]} alt="NFT" decoding="async"/>
               <p>252 count, 16oz.</p>
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[6]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[6]} alt="NFT" decoding="async"/>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[7]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[7]} alt="NFT" decoding="async"/>
               <p>100mL Hand Sanitizers</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[8]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[8]} alt="NFT" decoding="async"/>
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[9]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[9]} alt="NFT" decoding="async"/>
               <p>Blunt Aroma</p>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[10]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[10]} alt="NFT" decoding="async"/>
               <p>Satya Nag Champa</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[11]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[11]} alt="NFT" decoding="async"/>
               <p>Incense</p>
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[12]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[12]} alt="NFT" decoding="async"/>
               <p>6-pack Beer Rings</p>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[13]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[13]} alt="NFT" decoding="async"/>
               <p>6-pack Beer Caps</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[14]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[14]} alt="NFT" decoding="async"/>
               <p>6-pack Beer Holder</p>
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[15]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[15]} alt="NFT" decoding="async"/>
               <p>Variety of Flavors</p>
             </h3>
           </div>
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[17]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[17]} alt="NFT" decoding="async"/>
               <p>200mL Hand Soap</p>
 
             </h3>
           </div>{" "}
           <div>
             <h3>
-              <img style={{ borderRadius: "15px" }} src={imgs[16]} alt="NFT" />
+              <img style={{ borderRadius: "15px" }} src={imgs[16]} alt="NFT" decoding="async" />
               <p>Aqua, Mango, and Rose</p>
             </h3>
           </div>{" "}

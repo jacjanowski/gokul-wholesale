@@ -3,7 +3,7 @@ import "./Information.css";
 import Email from "./Email";
 import Slider from "./Slider";
 import Header from "./Header";
-import { photos } from "../photo";
+import { photos } from "../bag";
 import Fade from "react-reveal/Fade";
 import Gallery from "react-photo-gallery";
 import GalleryPage from "./GalleryPage";

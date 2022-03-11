@@ -2,7 +2,6 @@
     margin: auto;
     padding: 10px 0px;
     width: 90%;
-    background-color: black;
 }
 
 #carousel img {
@@ -10,12 +9,15 @@
     width: 100%;
 }
 
+.slick-next:before, .slick-prev:before{
+    color: black;
+}
+
 #carousel h3 {
     margin: 0px 5px;
 }
 
 #carousel p {
-    color: white;
     font-family: inherit;
     text-align: center;
     margin: 5px;

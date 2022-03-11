@@ -2,8 +2,8 @@ export const photos = [
     {
       
       src: "../gokul-images/satya1.JPG",
-      width: 4,
-      height: 3
+      width: 1,
+      height: 1
     },
     {
       src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
@@ -13,8 +13,8 @@ export const photos = [
    
     {
       src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-      width: 4,
-      height: 3
+      width: 1,
+      height: 1
     },
  
     {
