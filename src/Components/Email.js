@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Email.css";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 
 export default function Email() {
@@ -76,6 +76,13 @@ export default function Email() {
               harsh@gokulwholesaleinc.com
             </a>{" "}
           </p>
+          <h2>Hours</h2>
+          <div>
+            
+            <p><FaClock />Monday - Friday: 9:00am - 6:00pm CST</p>
+             <p className="weekend-hour">Saturday: 10:00am - 4:00pm CST</p>
+             <p className="weekend-hour">Sunday: Closed</p>
+          </div>
         </div>
       </Fade>
 

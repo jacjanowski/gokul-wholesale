@@ -1,0 +1,15 @@
+
+.down-arrow svg{
+    font-size: 50px;
+    color: #000;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+    height: 20vh;
+}
+
+.down-arrow svg:hover {
+    color: rgb(197, 197, 197);
+    cursor: pointer;
+}

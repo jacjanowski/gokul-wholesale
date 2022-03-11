@@ -1,22 +1,29 @@
 .navbar {
   overflow: hidden;
-  bottom: 25%;
+  visibility: hidden;
   width: 100%;
-  padding: 0;
+  padding: 10px 0px;
   display: flex;
+  margin: 0;
   list-style: none;
   justify-content: center;
   z-index: 1;
-  
+  background: rgb(214, 214, 214);
+}
+
+#nav.sticky {
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar li:hover {
   cursor: pointer;
   color: rgb(196, 217, 255);
-  /* border-bottom: 1px solid #000; */
-  /* margin: 0 50px; */
+
   
 }
+
 
 ul li {
   text-decoration-color: #0000;
@@ -24,15 +31,21 @@ ul li {
   color: #000;
   font-weight: 600;
   font-size: 32px;
-  /* padding: 5px 25px; */
   margin: 0 25px;
   
 }
 
+
+.scroll-on {
+  visibility: visible;
+}
 @media only screen and (max-width: 767px) {
     ul li {
-      font-size: 40px;
-      margin: 10% 0px;
+      font-size: 18px;
+      background: rgb(214, 214, 214);
+  }
+  .navbar {
+    justify-content: space-between;
   }
   
   

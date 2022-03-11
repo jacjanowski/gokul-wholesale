@@ -7,7 +7,7 @@ export default class Header extends Component {
       
     return (
       
-      <ul className="navbar" >
+      <ul id="nav" className="navbar" >
         
         <li>
           <Link to="home" spy={true} smooth={true}>

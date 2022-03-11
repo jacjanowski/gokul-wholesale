@@ -7,6 +7,7 @@ import { photos } from "../bag";
 import Fade from "react-reveal/Fade";
 import Gallery from "react-photo-gallery";
 import GalleryPage from "./GalleryPage";
+import DownScroll from './DownScroll'
 
 let logo = "gokul-images/logo.png";
 
@@ -20,11 +21,12 @@ export default class Information extends Component {
               <h1>Gokul Wholesale</h1>
 
               <img id="logo" src={logo} />
-              <Header />
+              <DownScroll />
+
             </div>
           </Fade>
         </div>
-
+        <Header />
         <div className="section" id="about" >
           <div className="container">
             <Slider />

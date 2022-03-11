@@ -115,6 +115,9 @@ p a:hover {
 svg {
   color: azure;
 }
+.weekend-hour {
+  margin-left: 25px;
+}
 textarea {
   height: 200px;
   font-size: 18px;
@@ -155,6 +158,9 @@ input[type="submit"]:hover {
     position: relative;
   }
 
+  .weekend-hour {
+    margin-left: 0;
+  }
 
   form * {
     width: -webkit-fill-available;
