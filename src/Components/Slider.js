@@ -54,7 +54,6 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div id="carousel">
-        <h1>Some of Our Merchandise</h1>
         <Slider {...settings}>
           <div>
             <h3>

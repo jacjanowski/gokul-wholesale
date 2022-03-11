@@ -1,6 +1,6 @@
 .navbar {
   overflow: hidden;
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 100%;
   padding: 10px 0px;
   display: flex;
@@ -9,21 +9,25 @@
   justify-content: center;
   z-index: 1;
   background: rgb(214, 214, 214);
+  /* transition: visibility 0.3s linear, opacity 0.3s linear; */
 }
 
 #nav.sticky {
   top: 0;
   position: fixed;
   width: 100%;
+
+}
+
+#nav.stick.scroll-on {
+  /* visibility: visible;
+  opacity: 1; */
 }
 
 .navbar li:hover {
   cursor: pointer;
   color: rgb(196, 217, 255);
-
-  
 }
-
 
 ul li {
   text-decoration-color: #0000;
@@ -32,27 +36,17 @@ ul li {
   font-weight: 600;
   font-size: 32px;
   margin: 0 25px;
-  
 }
-
 
 .scroll-on {
   visibility: visible;
 }
 @media only screen and (max-width: 767px) {
-    ul li {
-      font-size: 18px;
-      background: rgb(214, 214, 214);
+  ul li {
+    font-size: 18px;
+    background: rgb(214, 214, 214);
   }
   .navbar {
     justify-content: space-between;
   }
-  
-  
-  
 }
-
-
-  
-
-

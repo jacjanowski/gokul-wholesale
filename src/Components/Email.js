@@ -79,8 +79,8 @@ export default function Email() {
           <h2>Hours</h2>
           <div>
             
-            <p><FaClock />Monday - Friday: 9:00am - 6:00pm CST</p>
-             <p className="weekend-hour">Saturday: 10:00am - 4:00pm CST</p>
+            <p className="weekend-hour">Monday - Friday: 9:00am - 6:00pm CST</p>
+             <p ><FaClock /> Saturday: 10:00am - 4:00pm CST</p>
              <p className="weekend-hour">Sunday: Closed</p>
           </div>
         </div>

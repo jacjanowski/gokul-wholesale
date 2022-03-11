@@ -7,7 +7,7 @@ export default class DownScroll extends Component {
   render() {
     return (
       <div className="down-arrow">
-        <Link to="about" spy={true} smooth={true}>
+        <Link to="nav" spy={true} smooth={true}>
           <FaChevronCircleDown />
         </Link>
       </div>
