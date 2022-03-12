@@ -16,12 +16,7 @@ export const bags = [
       width: 1,
       height: 1
     }, 
-    {
-      
-      src: "../gokul-images/bag14.JPG",
-      width: 1,
-      height: 1
-    },
+
     {
       src: "../gokul-images/bag5.JPG",
       width: 1,
