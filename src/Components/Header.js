@@ -15,7 +15,7 @@ export default class Header extends Component {
           </Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth={true}>
+          <Link to="carousel" spy={true} smooth={true}>
             About
           </Link>
         </li>

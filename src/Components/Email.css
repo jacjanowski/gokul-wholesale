@@ -101,7 +101,11 @@ p {
 
 .column:nth-of-type(1) p {
   color: rgb(200, 230, 255);
-  margin-bottom: 1.5em;
+  margin: 20px 0px;
+}
+
+.column:nth-of-type(1) h2 {
+  margin: 0;
 }
 
 p a {
@@ -181,10 +185,14 @@ input[type="submit"]:hover {
   p {
     font-size: 1.2em;
   }
+  #contact .container h1 {
+    margin: 45px 0px;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   .row {
     display: block;
   }
+
 }

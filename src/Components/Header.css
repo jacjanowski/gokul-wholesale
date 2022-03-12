@@ -1,6 +1,7 @@
 .navbar {
   overflow: hidden;
-  /* visibility: hidden; */
+  visibility: hidden;
+  position: absolute;
   width: 100%;
   padding: 10px 0px;
   display: flex;
@@ -20,13 +21,13 @@
 }
 
 #nav.stick.scroll-on {
-  /* visibility: visible;
-  opacity: 1; */
+  visibility: visible;
+  opacity: 1;
 }
 
 .navbar li:hover {
   cursor: pointer;
-  color: rgb(196, 217, 255);
+  color: rgb(158, 158, 158);
 }
 
 ul li {
@@ -40,6 +41,11 @@ ul li {
 
 .scroll-on {
   visibility: visible;
+}
+@media (hover: none) {
+  .navbar li:hover{
+    color: inherit;
+  }
 }
 @media only screen and (max-width: 767px) {
   ul li {
