@@ -2,3 +2,17 @@
     text-align: center;
     font-size: 18px;
 }
+
+#gallery img {
+    border-radius: 15px;
+}
+
+#gallery {
+    margin: 0 60px;
+}
+
+@media only screen and (max-width: 767px) {
+    #gallery {
+        margin: 0;
+    }
+  }
