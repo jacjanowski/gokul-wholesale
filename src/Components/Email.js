@@ -19,10 +19,10 @@ export default function Email() {
     setMessage("");
     emailjs
       .sendForm(
-        "service_l33s7b5",
-        "template_5qgy8tg",
+        "service_q3h1ggq",
+        "template_5jtf6od",
         "#contact-form",
-        "user_Qk53rvtmKogW6pqRTf45w"
+        "1HS9ZTxh83p7_aVwz"
       )
       .then(
         (result) => {
@@ -90,7 +90,7 @@ export default function Email() {
       <div className="column" id="form-container">
         {status && alertMessage}
         <Fade right cascade>
-          <form id="contact-form" ref={form} onSubmit={test}>
+          <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <input
               className="form-input"
               type="text"
