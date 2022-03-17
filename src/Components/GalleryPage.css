@@ -6,6 +6,11 @@
 #gallery img {
     border-radius: 15px;
 }
+.cup-container img {
+    width: auto;
+    margin: 0 2px;
+    height: 400px;
+}
 .bag-container div {
     align-items: center;
     display: flex;
