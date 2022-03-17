@@ -24,17 +24,17 @@ export default class GalleryPage extends Component {
         <div className="bag-container">
           <img width="100%" height="auto" src="gokul-images/bags1.jpg" />
           <div>
-            <h2>1/6 White</h2>
-            <h2>1/8 Black</h2>
-            <h2>1/9 Black</h2>
-            <h2>1/9 White</h2>
+            <h2>1/6 <br/> White</h2>
+            <h2>1/8 <br/> Black</h2>
+            <h2>1/9 <br/> Black</h2>
+            <h2>1/9 <br/> White</h2>
           </div>
           <img width="100%" height="auto" src="gokul-images/bags2.jpg" />
           <div>
-            <h2>1/6 Black</h2>
-            <h2>1/10 Black</h2>
-            <h2>Single Bottle</h2>
-            <h2>1000 ct. Black or White</h2>
+            <h2>1/6 <br/> Black</h2>
+            <h2>1/10 <br/> Black</h2>
+            <h2>Single <br/> Bottle</h2>
+            <h2>1000 ct. <br/> Black/White</h2>
           </div>
         </div>
 
