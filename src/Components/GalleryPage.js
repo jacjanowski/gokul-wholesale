@@ -50,18 +50,6 @@ export default class GalleryPage extends Component {
         </Fade>
 
 
-        {/* <div className="cup-container">
-          <img src="gokul-images/pacific1.JPG" />
-          <img src="gokul-images/pacific2.JPG" />
-          <img src="gokul-images/pacific4.JPG" />
-        </div>
-
-        <div className="cup-container">
-          <img src="gokul-images/box3.JPG" />
-          <img style={{width: "50%"}} src="gokul-images/cup1.JPG" />
-          <img src="gokul-images/mini1.JPG" />
-        </div> */}
-
         <Gallery photos={cups} />
         <Gallery photos={cups2} />
 
