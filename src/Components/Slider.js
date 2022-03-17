@@ -33,7 +33,7 @@ export default class SimpleSlider extends Component {
       speed: 3000,
       slidesToShow: 3,
       slidesToScroll: 3,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
       responsive: [
         {

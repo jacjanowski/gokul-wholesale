@@ -8,7 +8,7 @@ export const cups = [
     },
     {
         decoding: "async",
-        src: "../gokul-images/cup1.JPG",
+        src: "../gokul-images/cup4.jpg",
         width: 4,
         height: 3
     },

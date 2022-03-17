@@ -36,6 +36,7 @@ export default class GalleryPage extends Component {
             <h2>Single <br/> Bottle</h2>
             <h2>1000 ct. <br/> Black/White</h2>
           </div>
+          <img width="100%" height="auto" src="gokul-images/pacificBags.jpg" />
         </div>
 
 
