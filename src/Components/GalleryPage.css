@@ -29,4 +29,7 @@
     #gallery {
         margin: 0;
     }
+    .bag-container h2 {
+        font-size: 12px;
+    }
   }

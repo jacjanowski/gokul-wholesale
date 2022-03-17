@@ -2,7 +2,7 @@ export const cups = [
 
     {
         decoding: "async",
-        src: "../gokul-images/box3.JPG",
+        src: "../gokul-images/box3.jpg",
         width: 4,
         height: 3
     },
@@ -15,7 +15,7 @@ export const cups = [
 
     {
         decoding: "async",
-        src: "../gokul-images/mini1.JPG",
+        src: "../gokul-images/mini.jpg",
         width: 1,
         height: 1
     },
