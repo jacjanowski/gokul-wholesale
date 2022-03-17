@@ -6,7 +6,16 @@
 #gallery img {
     border-radius: 15px;
 }
+.bag-container div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
 
+.bag-container h2 {
+    color: black;
+    letter-spacing: normal;
+}
 #gallery {
     margin: 0 60px;
 }

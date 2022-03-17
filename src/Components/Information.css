@@ -56,7 +56,7 @@ html, body {
 #contact::before {    
     content: "";
     /* background-image: url('../../public/gokul-images/city.jpeg'); */
-    background-image: linear-gradient(rgb(14, 14, 14),rgba(51, 51, 51, 0.5)) , url('../../public/gokul-images/building.jpeg');
+    background-image: linear-gradient(rgb(14, 14, 14),rgba(51, 51, 51, 0.5)) , url('https://wallpaperaccess.com/full/3124512.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

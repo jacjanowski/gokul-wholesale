@@ -7,7 +7,7 @@ import "./Slider.css";
 let imgs = [
   "gokul-images/cup1.JPG",
   "gokul-images/cup2.JPG",
-  "gokul-images/cup3.JPG",
+  "gokul-images/mini.jpg",
   "gokul-images/pacific1.JPG",
   "gokul-images/pacific2.JPG",
   "gokul-images/pacific3.JPG",
@@ -34,7 +34,7 @@ export default class SimpleSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 3,
       autoplay: true,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 4000,
       responsive: [
         {
           breakpoint: 767,

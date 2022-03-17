@@ -13,12 +13,32 @@ export default class GalleryPage extends Component {
       <div id="gallery">
         <Fade left>
           <h1>Variety of Bag Sizes</h1>
-          <p>Sizes include 1/6, 1/8, 1/9</p>
-          <p>Single Bottle size</p>
+          <p>Sizes include 1/6, 1/8, 1/9, 1/10</p>
           <p>27 Jumbo & 36 Jumbo sizes</p>
+          <p>Single Bottle size</p>
+          <p>1000 Count</p>
+
         </Fade>
 
-        <Gallery photos={bags} />
+        <div className="bag-container">
+          <img width="100%" height="auto" src="gokul-images/bags1.jpg" />
+          <div>
+            <h2>1/6 White</h2>
+            <h2>1/8 Black</h2>
+            <h2>1/9 Black</h2>
+            <h2>1/9 White</h2>
+          </div>
+          <img width="100%" height="auto" src="gokul-images/bags2.jpg" />
+          <div>
+            <h2>1/6 Black</h2>
+            <h2>1/10 Black</h2>
+            <h2>Single Bottle</h2>
+            <h2>1000 ct. Black or White</h2>
+          </div>
+        </div>
+
+
+
 
         <Fade right>
           <h1>Plastic Cups</h1>
@@ -27,6 +47,8 @@ export default class GalleryPage extends Component {
           <p>300 count 12oz</p>
           <p>252 count, 5pk 16oz</p>
         </Fade>
+
+
 
         <Gallery photos={cups} />
 
