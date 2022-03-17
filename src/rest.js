@@ -15,15 +15,15 @@ export const rest = [
   {
     decoding: "async",
     src: "../gokul-images/beer3.JPG",
-    width: 7,
-    height: 6,
+    width: 3,
+    height: 2,
   },
 
   {
     decoding: "async",
     src: "../gokul-images/beer4.JPG",
-    width: 1,
-    height: 1,
+    width: 4,
+    height: 3,
   },
 
   {
@@ -38,12 +38,7 @@ export const rest = [
     width: 4,
     height: 3,
   },
-  {
-    decoding: "async",
-    src: "../gokul-images/beer7.JPG",
-    width: 4,
-    height: 3,
-  },
+
 
   {
     decoding: "async",
@@ -64,12 +59,7 @@ export const rest = [
     width: 4,
     height: 3,
   },
-  {
-    decoding: "async",
-    src: "../gokul-images/sanitizer4.JPG",
-    width: 1,
-    height: 1,
-  },
+
   {
     decoding: "async",
     src: "../gokul-images/sanitizer5.JPG",
@@ -77,12 +67,7 @@ export const rest = [
     height: 3,
   },
 
-  {
-    decoding: "async",
-    src: "../gokul-images/sanitizer7.JPG",
-    width: 4,
-    height: 3,
-  },
+
   {
     decoding: "async",
     src: "../gokul-images/toilet1.JPG",
