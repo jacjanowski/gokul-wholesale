@@ -26,8 +26,8 @@ export default class GalleryPage extends Component {
           <div>
             <h2>1/6 <br/> White</h2>
             <h2>1/8 <br/> Black</h2>
-            <h2>1/9 <br/> Black</h2>
-            <h2>1/9 <br/> White</h2>
+            <h2>1/9 <br/> Black/White</h2>
+            <h2>1/6 1000ct.<br/> White</h2>
           </div>
           <img width="100%" height="auto" src="gokul-images/bags2.jpg" />
           <div>
