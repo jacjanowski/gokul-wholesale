@@ -6,12 +6,12 @@ import "./Slider.css";
 
 let imgs = [
   "gokul-images/cup1.JPG",
-  "gokul-images/cup2.JPG",
+  "gokul-images/cup2.jpg",
   "gokul-images/mini1.JPG",
   "gokul-images/pacific1.JPG",
   "gokul-images/pacific2.JPG",
-  "gokul-images/pacific3.JPG",
-  "gokul-images/sanitizer1.JPG",
+  "gokul-images/pacific3.jpg",
+  "gokul-images/sanitizer1.jpg",
   "gokul-images/sanitizer2.JPG",
   "gokul-images/sanitizer3.JPG",
   "gokul-images/blunt.JPG",
@@ -22,7 +22,7 @@ let imgs = [
   "gokul-images/beer3.JPG",
   "gokul-images/soap1.JPG",
   "gokul-images/soap2.JPG",
-  "gokul-images/soap3.JPG"
+  "gokul-images/soap3.jpg"
 ];
 
 export default class SimpleSlider extends Component {
