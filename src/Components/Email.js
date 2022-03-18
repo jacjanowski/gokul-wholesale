@@ -12,6 +12,16 @@ export default function Email() {
 
   const form = useRef();
 
+  // Mine
+  // service_l33s7b5
+  // template_5qgy8tg
+  // user_Qk53rvtmKogW6pqRTf45w
+
+
+  // Harsh
+  // service_q3h1ggq
+  // template_5jtf6od
+  // 1HS9ZTxh83p7_aVwz
   const sendEmail = (e) => {
     e.preventDefault();
     setEmail("");
@@ -94,7 +104,7 @@ export default function Email() {
             <input
               className="form-input"
               type="text"
-              name="user_name"
+              name="name"
               placeholder="Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
