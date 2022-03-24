@@ -73,7 +73,7 @@ export default function Email() {
           <h2>Address</h2>
           <p>
             {" "}
-            <FaMapMarkerAlt /> 1141 W. Bryn Mawr Ave. Itasca, IL 60191
+            <FaMapMarkerAlt /> 1141 W. Bryn Mawr Ave. Itasca, IL 60143
           </p>
           <h2>Phone</h2>
           <p>
