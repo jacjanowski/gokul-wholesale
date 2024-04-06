@@ -82,7 +82,7 @@ export default function Email() {
           <h2>Email</h2>
           <p>
             <FaEnvelope />{" "}
-            <a href="mailto: jacobjanowski.uic@gmail.com">
+            <a href="mailto: harsh@gokulwholesaleinc.com">
               harsh@gokulwholesaleinc.com
             </a>{" "}
           </p>
